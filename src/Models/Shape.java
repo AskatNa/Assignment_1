@@ -26,7 +26,6 @@ public class Shape {
         for(int i = 0; i < 9; i++){
             current = array.get(i).distanceTo(array.get(i+1));
             maxLength = Math.max(maxLength, current);
-
         }
         return maxLength;
     }
