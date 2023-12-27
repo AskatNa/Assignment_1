@@ -17,6 +17,6 @@ public class Point {
     public String toString(){
         return "Points:" +
                 "x =" + x +
-                ", y =" + y;
+                " and y =" + y;
     }
 }
