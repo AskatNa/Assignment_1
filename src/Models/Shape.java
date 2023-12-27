@@ -11,11 +11,11 @@ public class Shape {
     }
 
     public double calculatePerimeter(){
-        double perimeter = 0;
+        double Perimeter = 0;
 
-        for(int i = 0; i < 9; i++) perimeter += array.get(i).distanceTo(array.get(i + 1));
-        perimeter += array.get(0).distanceTo(array.get(9));
-        return perimeter;
+        for(int i = 0; i < 9; i++) Perimeter += array.get(i).distanceTo(array.get(i + 1));
+        Perimeter += array.get(0).distanceTo(array.get(9));
+        return Perimeter;
     }
     public double getAverageSide(){
         return calculatePerimeter() / 10;
